@@ -1,0 +1,11 @@
+theme = "autumn"
+
+[editor]
+gutters = ["diagnostics"]
+mouse = false
+true-color = true
+
+[keys.normal]
+"$" = "goto_line_end"
+"0" = "goto_line_start"
+
