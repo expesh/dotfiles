@@ -1,9 +1,15 @@
-theme = "autumn"
+theme = "sonokai"
 
 [editor]
-gutters = ["diagnostics"]
+auto-info = false
+cursorline = true
+gutters = ["diagnostics", "line-numbers"]
+line-number = "relative"
 mouse = false
 true-color = true
+
+[editor.lsp]
+display-messages = true
 
 [keys.normal]
 "$" = "goto_line_end"
